@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block titulo %} Agregar nuevo articulo {% endblock %}
+
+{% block contenido %} 
+<div class="card">
+    <div class="card-header">
+        Crear articulo
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos del articulo</h4>
+        {% include 'articulos/form.html' %}
+    </div>
+    <div class="card-footer text-muted">
+      
+    </div>
+</div>
+{% endblock %}
