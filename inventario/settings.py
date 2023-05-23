@@ -80,7 +80,7 @@ DATABASES = {
         #'ENGINE': 'django.db.backends.sqlite',
         #'NAME': BASE_DIR / 'articulos.sqlite',
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'articulos',
+        'NAME': 'MalvadosYAsosiad$articulos',
         'USER': 'MalvadosYAsosiad',
         'PASSWORD': 'a9474452a',
         'HOST': 'MalvadosYAsosiados.mysql.pythonanywhere-services.com',
