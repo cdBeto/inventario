@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'inventario.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'MalvadosYAsosiad$articulos',
-        'USER': 'MalvadosYAsosiad',
-        'PASSWORD': 'a9474452a',
-        'HOST': 'MalvadosYAsosiados.mysql.pythonanywhere-services.com',
+        'NAME': 'articulos',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }
