@@ -79,11 +79,12 @@ DATABASES = {
     'default': {
         
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'articulos',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'NAME': 'MalvadosYAsosiad$articulos',
+        'USER': 'MalvadosYAsosiad',
+        'PASSWORD': 'a9474452a',
+        'HOST': 'MalvadosYAsosiados.mysql.pythonanywhere-services.com',
         'PORT': '3306',
+
 
     }
 }
